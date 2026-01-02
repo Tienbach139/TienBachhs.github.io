@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hải Sản Tươi Ngon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f4f7fb;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a58ca, #0dcaf0);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 16px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 16px;
+    }
+
+    .card-body h3 {
+      margin: 0 0 8px;
+      color: #0a58ca;
+    }
+
+    .card-body p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 14px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      color: white;
+    }
+
+    .fb { background: #1877f2; }
+    .zalo { background: #0068ff; }
+    .call { background: #28a745; }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🦐 Hải Sản Tươi Mỗi Ngày</h1>
+  <p>Tươi – sạch – giao nhanh tận nơi</p>
+</header>
+
+<div class="container">
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604908177522-4022c7c08f3f" alt="Cua biển">
+      <div class="card-body">
+        <h3>Cua biển</h3>
+        <p>Cua chắc thịt, tươi sống, lựa kỹ mỗi ngày.</p>
+        <div class="buttons">
+          <a class="btn fb" href="https://facebook.com/tenfacebook">Facebook</a>
+          <a class="btn zalo" href="https://zalo.me/0123456789">Zalo</a>
+          <a class="btn call" href="tel:0123456789">Gọi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1587049352859-6f5b59c1d1e0" alt="Tôm tươi">
+      <div class="card-body">
+        <h3>Tôm tươi</h3>
+        <p>Tôm tươi mỗi ngày, size đẹp, giao nhanh.</p>
+        <div class="buttons">
+          <a class="btn fb" href="https://facebook.com/tenfacebook">Facebook</a>
+          <a class="btn zalo" href="https://zalo.me/0123456789">Zalo</a>
+          <a class="btn call" href="tel:0123456789">Gọi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1516684669134-de6cec7e6f7f" alt="Cá biển">
+      <div class="card-body">
+        <h3>Cá biển</h3>
+        <p>Cá tươi, làm sạch theo yêu cầu.</p>
+        <div class="buttons">
+          <a class="btn fb" href="https://facebook.com/tenfacebook">Facebook</a>
+          <a class="btn zalo" href="https://zalo.me/0123456789">Zalo</a>
+          <a class="btn call" href="tel:0123456789">Gọi</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2025 Hải sản tươi · Liên hệ trực tiếp để đặt hàng
+</footer>
+
+</body>
+</html>
